@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'dart:math';
 import 'win.dart';
-import 'loss.dart';
+import 'lose.dart';
 import 'draw.dart';
 
 class MyTurn extends StatefulWidget {
@@ -178,7 +178,7 @@ class _MyTurnState extends State<MyTurn> {
                             Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => const Loss(),
+                                builder: (context) => const Lose(),
                               ),
                             );
                           },

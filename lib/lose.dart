@@ -3,14 +3,14 @@ import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:rock_paper_scissors_game/computer_turn.dart';
 
-class Loss extends StatefulWidget {
-  const Loss({super.key});
+class Lose extends StatefulWidget {
+  const Lose({super.key});
 
   @override
-  State<Loss> createState() => _LossState();
+  State<Lose> createState() => _LoseState();
 }
 
-class _LossState extends State<Loss> {
+class _LoseState extends State<Lose> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,7 +20,7 @@ class _LossState extends State<Loss> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
-              "You Loss !!",
+              "You Lose !!",
               style: TextStyle(
                 color: Colors.redAccent,
                 fontSize: 50,
